@@ -2,13 +2,17 @@
   "name": "yavanna",
   "version": "0.0.1",
   "description": "Manage port-forwarding rules for the Bell Connection Hub",
-  "main": "index.js",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/virtualpatterns/yavanna"
+  },
   "scripts": {
     "Deluge": "node index.js add Deluge 65052 192.168.2.100 65052",
     "CrashPlan": "node index.js add CrashPlan 4242 192.168.2.101 4242",
     "Plex": "node index.js add Plex 32400 192.168.2.101 32400"
   },
-  "author": "code.virtualpatterns@gmail.com",
+  "author": "code@virtualpatterns.com",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.6.0"

@@ -1,6 +1,6 @@
 # yavanna
 
-A CLI tool for managing port-forwarding rules for the Bell Connection Hub
+A CLI tool for managing port-forwarding rules for the Bell Connection Hub by-passing the verificatiom rules of the web-page.
 
 ## Installation
 
@@ -19,7 +19,3 @@ See the help for more information ...
 ``` bash
   $ yavanna add Deluge 65052 192.168.2.100 65052
 ```
-
-#### Author: [virtualpatterns](https://github.com/virtualpatterns)
-
-[0]: https://github.com/virtualpatterns/yavanna

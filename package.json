@@ -12,7 +12,7 @@
     "CrashPlan": "node index.js add CrashPlan 4242 192.168.2.101 4242",
     "Plex": "node index.js add Plex 32400 192.168.2.101 32400"
   },
-  "author": "code@virtualpatterns.com",
+  "author": "virtualpatterns <code@virtualpatterns.com> (https://github.com/virtualpatterns)",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.6.0"

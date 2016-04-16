@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Command = require('commander');
 var Http = require('http');
 var Package = require('./package.json');
